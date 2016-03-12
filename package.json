@@ -1,9 +1,14 @@
 {
   "name": "code-solution-manager",
-  "displayName": "code-solution-manager",
-  "description": "",
+  "displayName": "Code Solution Manager",
+  "description": "Helps you navigate between multiple vscode editor windows / projects.",
   "version": "0.0.1",
   "publisher": "DryWolf",
+  "homepage": "https://github.com/drywolf/code-solution-manager/blob/master/README.md",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/drywolf/code-solution-manager.git"
+  },
   "engines": {
     "vscode": "^0.10.6"
   },

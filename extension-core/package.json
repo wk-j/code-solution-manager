@@ -1,9 +1,13 @@
 {
   "name": "code-solution-manager-core",
-  "displayName": "code-solution-manager-core",
+  "displayName": "Code Solution Manager Core",
   "description": "",
   "version": "0.0.1",
   "publisher": "DryWolf",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/drywolf/code-solution-manager.git"
+  },
   "engines": {
     "vscode": "^0.10.10"
   },
