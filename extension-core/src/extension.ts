@@ -9,11 +9,14 @@ export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('extension.solutionmanager.showOpenProjects', () => {
 
         // source
-        var command = './node_modules/.bin/electron.cmd';
+        //var command = './node_modules/.bin/electron.cmd';
+        var command = "electron";
         var cwd = path.join(__dirname, '../../../extension-ui/');
         
         command = command.replace(/\//g, path.sep);
         cwd = cwd.replace(/\//g, path.sep);
+        
+        console.log(process.env);
         
         var spawn_env = JSON.parse(JSON.stringify(process.env));
         
